@@ -45,7 +45,7 @@ public class JNotify_linux
 	
 	static
 	{
-		System.loadLibrary("jnotify");
+//		System.loadLibrary("jnotify");
 		int res = nativeInit();
 		if (res != 0)
 		{

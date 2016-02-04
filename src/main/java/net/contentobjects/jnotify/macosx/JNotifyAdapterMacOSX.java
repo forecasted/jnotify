@@ -27,10 +27,10 @@ public class JNotifyAdapterMacOSX implements IJNotify
 		long inode;
 
 		// load the stat function
-		static
-		{
-			System.loadLibrary("jnotify"); //$NON-NLS-1$
-		}
+//		static
+//		{
+//			System.loadLibrary("jnotify"); //$NON-NLS-1$
+//		}
 
 		JNFile(File f) throws IOException
 		{

@@ -10,7 +10,7 @@ public class JNotify_macosx
 
 	static
 	{
-		System.loadLibrary("jnotify"); //$NON-NLS-1$
+//		System.loadLibrary("jnotify"); //$NON-NLS-1$
 		Thread thread = new Thread("FSEvent thread") //$NON-NLS-1$
 		{
 			public void run()

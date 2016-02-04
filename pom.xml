@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.contentobjects</groupId>
-    <artifactId>jnotify</artifactId>
+    <artifactId>jnotify-all</artifactId>
     <version>0.9.4</version>
 
     <dependencies>

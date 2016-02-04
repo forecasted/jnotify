@@ -36,6 +36,8 @@
 
 package net.contentobjects.jnotify;
 
+import org.fusesource.hawtjni.runtime.Library;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -67,6 +69,8 @@ public class JNotify
 		}
 		else
 		{
+			loadLibrary();
+
 			String osName = System.getProperty("os.name").toLowerCase();
 			if (osName.equals("linux"))
 			{
@@ -108,6 +112,11 @@ public class JNotify
 				throw new RuntimeException("Unsupported OS : " + osName);
 			}
 		}
+	}
+
+	private static void loadLibrary() {
+		Library library = new Library("jnotify", JNotify.class);
+		library.load();
 	}
 	
 	public static int addWatch(String path, int mask, boolean watchSubtree, JNotifyListener listener) throws JNotifyException
