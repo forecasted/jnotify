@@ -2,7 +2,7 @@
 
 fork from http://jnotify.sourceforge.net/
 
-JNotify is a java library to listen filesystem events, such as created, deleted, midified and renamed. 
+JNotify is a java library to listen filesystem events, such as created, deleted, modified and renamed. 
 
 Mechniasm
 ------
