@@ -2,15 +2,16 @@
 
 fork from http://jnotify.sourceforge.net/
 
-with enhancement: 
-1. maven friendly. 
-2. add native library to jar. 
-3. recompile linux native library with lower version GLIBC_2.2.5. 
+Enhancements
+-------
+* maven friendly. 
+* recompile linux native library with lower version GLIBC_2.2.5. 
+* package native library to jar. 
 
-
-tests in: 
-1. Mac OS X 10.11
-2. CentOS amd64 5.7
+Tested in platforms
+-------
+* Mac OS X 10.11
+* CentOS amd64 5.7
 
 
 
