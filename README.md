@@ -1,4 +1,4 @@
-# jNotify
+# JNotify
 
 fork from http://jnotify.sourceforge.net/
 
